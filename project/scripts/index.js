@@ -59,3 +59,19 @@ function onClickChefs(){
 function onClickChefsOne(){
     window.location.href = "../chefs.html";
 }
+
+function onClickHome(){
+    window.location.href = "./index.html";
+}
+
+function onClickHomeOne(){
+    window.location.href = "../index.html";
+}
+
+function onClickRecipes(){
+    window.location.href = "./recipes.html";
+}
+
+function onClickRecipesOne(){
+    window.location.href = "../recipes.html";
+}

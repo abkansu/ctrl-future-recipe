@@ -1,0 +1,45 @@
+.recipes{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.recipe{
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    width: 30%;
+    height: 200px;
+    margin-top: 2%;
+    margin-left: 2%;
+    border: 3px solid gray;
+    border-radius: 8px;
+}
+
+.recipe-list-image{
+    border-radius: 8px;
+    width: 60%;
+    height: 100%;
+}
+
+.recipe-info{
+    height: 40%;
+    margin-left: 2%;
+    width: 40%;
+    text-align: center;
+}
+
+.recipe-list-name{
+    font-family: 'EB Garamond', serif;
+}
+
+.recipe-list-link{
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+}
+
+.recipe-list-link:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
