@@ -1,0 +1,29 @@
+.top-bar{
+    background-color: #dcdcc6;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.top-bar-element{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    float: right;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    height: 50px;
+    width: 80px;
+}
+
+.top-bar-element:hover{
+    cursor: pointer;
+}
+
+.brand{
+    color: brown;
+    float: left;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 10px;
+    text-decoration: none;
+}

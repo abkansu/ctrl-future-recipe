@@ -1,0 +1,17 @@
+.header{
+    color: brown;
+    text-align: center;
+    font-size: 60;
+    font-family: 'Dancing Script', cursive;
+    margin-top: 2%;
+}
+
+
+.about-text{
+    font-family: 'EB Garamond', serif;
+    font-size: 16;
+    height: 600px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 2%;
+}

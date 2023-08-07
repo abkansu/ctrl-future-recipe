@@ -1,0 +1,40 @@
+.recipe-big-name{
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60;
+}
+
+.recipe-big-image{
+    height: 500px;
+    width: 800px;
+}
+
+.recipe-container{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.ingredients{
+    display: flex;
+    font-family: 'EB Garamond', serif;
+    font-size: 20;
+}
+
+.directions{
+    width: 50%;
+    font-family: 'EB Garamond', serif;
+    font-size: 20;
+}
+
+.head{
+    text-align: center;
+    height: 20px;
+    font-weight: 700;
+}

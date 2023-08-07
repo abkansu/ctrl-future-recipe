@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>
+            My Recipe Page
+        </title>
+
+        <!--LINK OF THE CSS FILE THAT I HAVE WRITTEN-->
+        <link rel="stylesheet" type="text/css" href="../css/index.css" />
+        <link rel="stylesheet" type="text/css" href="../css/top-bar.css" />
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" />
+        
+        
+        <!--LINK OF THE FONTS THAT HAVE BEEN USED FROM GOOGLE FONTS-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,700&display=swap" rel="stylesheet">
+
+        <!--SCRIPTS THAT ARE USED-->
+        <script src="../scripts/index.js"></script>
+
+
+    </head>
+    <body>
+        <!--TOP BAR ELEMENT-->
+        <div class="top-bar">
+            <a href="index.html" class="top-bar-element Brand">
+                Great Recipe
+            </a>
+            <div class="top-bar-element" onclick="onClickChefs()">
+                Chefs
+            </div>
+            <div class="top-bar-element" onclick="onClickAbout()">
+                About
+            </div>
+        </div>
+
+        <div class="entrance">
+            <div class="slogan">
+                We share the magical and great food. Just like your mother does.
+            </div>
+            <div class="about">
+                <p class="about-link" onclick="onClickAbout()"> 
+                    About us
+                </p>
+                
+            </div>
+        </div>
+
+        <!--THIS IS WHERE ALL THE CHEFS ARE SHOWN-->
+        <div class="section-header">
+            Chefs
+        </div>
+
+        <div class="chef-row">
+            <div class="chef">
+                <img src="../pictures/chefs/chef2.jpg" class="chef-image"/>
+                <div class="chef-text-index">JAMIE CARRAGHER</div>
+            </div>
+            <div style="height: 200px; width: 250px;"></div>
+            <div class="chef">
+                <img src="../pictures/chefs/chef1.jpg" class="chef-image"/>
+                <div class="chef-text-index">ANNE HATHAWAY</div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!--THIS IS WHERE ALL THE GREAT RECIPES ARE SHOWN-->
+        <div class="section-header">
+            Recipes
+        </div>
+        <div class="recipe-row">
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Instant_Pot_Lemon Frozen_Chicken with_Orzo.jpeg" />
+                <div class="recipe-name">
+                    Instant Pot Lemon Frozen Chicken with Orzo
+                </div>
+                <button class="view-recipe" onclick="onClickFrozenChicken()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Parmesan_Chicken_with_Broccoli.jpeg" />
+                <div class="recipe-name">
+                    Parmesan Chicken with Broccoli
+                </div>
+                <button class="view-recipe" onclick="onClickParmesanChicken()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Potato_Salad.jpeg" />
+                <div class="recipe-name">
+                    Potato Salad
+                </div>
+                <button class="view-recipe" onclick="onClickPotatoSalad()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Salad_Stuffed_Peppers.jpeg" />
+                <div class="recipe-name">
+                    Salad Stuffed Peppers
+                </div>
+                <button class="view-recipe" onclick="onClickSaladStuffed()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Salmon_Cakes.jpeg" />
+                <div class="recipe-name">
+                    Salmon Cakes
+                </div>
+                <button class="view-recipe" onclick="onClickSalmonCakes()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Summer_Dinner_Salad.jpeg" />
+                <div class="recipe-name">
+                    Summer Dinner Salad
+                </div>
+                <button class="view-recipe" onclick="onClickSummerSalad()">
+                    View Recipe
+                </button>
+            </div>
+            
+        </div>
+        <div class="recipe-row">
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Fruit_Pops.jpeg" />
+                <div class="recipe-name">
+                    Fruit Pops
+                </div>
+                <button class="view-recipe" onclick="onClickFruitPops()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Fruit_Ice_Pops.jpeg" />
+                <div class="recipe-name">
+                    Fruit Ice Pops
+                </div>
+                <button class="view-recipe" onclick="onClickIcePops()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Galaxy_Fruit_Pops.jpeg" />
+                <div class="recipe-name">
+                    Galaxy Fruit Pops
+                </div>
+                <button class="view-recipe" onclick="onClickGalaxyPops()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Leftover_Fruit_Ice_Pops.jpeg" />
+                <div class="recipe-name">
+                    Leftover Fruit Ice Pops
+                </div>
+                <button class="view-recipe" onclick="onClickLeftoverPops()">
+                    View Recipe
+                </button>
+            </div>
+            <div class="recipe-card">
+                <img class="recipe-image" src="../pictures/food/Tropical_Fruit_Pops.jpeg" />
+                <div class="recipe-name">
+                    Tropical Fruit Pops
+                </div>
+                <button class="view-recipe" onclick="onClickTropicalPops()">
+                    View Recipe
+                </button>
+            </div>
+        </div>
+        
+        <!--FOOTER OF THE PAGE-->
+        <div class="footer">
+            <div class="logo">
+                Great Recipe
+            </div>
+            <div class="copyright">
+                <div class="footer-element">
+                    7 August 2023
+                </div>
+                <div class="footer-element">
+                    &copy; Ahmet Bera Kansu. All rights reserved
+                </div>
+                <div class="footer-element">
+                    abkansu@gmail.com
+                </div>
+                <div class="footer-element">
+                    +90 507 876 4522
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
